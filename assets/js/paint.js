@@ -34,49 +34,58 @@ function removeOpacity(event) {
 function getProductInfo(paintColor) {
     let price;
     let colorName;  
-    
+    // COMPLETED set variables for price and color name and invoke a function to update the price
     switch (paintColor) {
-        case 'pn1':           
+        case 'pn1':
+             // COMPLETED set variables for price and color name and invoke a function to update the price           
             price = '$14.99'
             colorName = 'Lime Green'
             updatePrice(colorName, price)           
             break;           
         case 'pn2':
+             // COMPLETED set variables for price and color name and invoke a function to update the price
             price = '$11.14'
             colorName = 'Medium Brown' 
             updatePrice(colorName, price)     
             break;            
         case 'pn3':
+             // COMPLETED set variables for price and color name and invoke a function to update the price
             price = '$22.99'
             colorName = 'Royal Blue'   
             updatePrice(colorName, price)   
             break;   
         case 'pn4':
+             // COMPLETED set variables for price and color name and invoke a function to update the price
             price = '$13.42'
             colorName = 'Bright Red'            
             updatePrice(colorName, price)   
             break;   
         case 'pn5':
+             // COMPLETED set variables for price and color name and invoke a function to update the price
             price = '$21.98'
             colorName = 'Solid White' 
             updatePrice(colorName, price)              
             break;   
         case 'pn6':
+             // COMPLETED set variables for price and color name and invoke a function to update the price
             price = '$4.99'
             colorName = 'Solid Black'   
             updatePrice(colorName, price)            
             break;   
         case 'pn7':
+             // COMPLETED set variables for price and color name and invoke a function to update the price
             price = '$8.22'
             colorName = 'Solid Cyan'       
             updatePrice(colorName, price)        
             break;   
         case 'pn8':
+             // COMPLETED set variables for price and color name and invoke a function to update the price
             price = '$11.99'
             colorName = 'Solid Purple'      
             updatePrice(colorName, price)         
             break;   
         case 'pn9':
+             // COMPLETED set variables for price and color name and invoke a function to update the price
             price = '$14.99'
             colorName = 'Solid Yellow'                       
             updatePrice(colorName, price)   
